@@ -21,6 +21,17 @@ package de.exercise.array;
 
 public class ArrayUtils {
 
+  /**
+   * The value of a specific index should always be equal to this index. This means, array[0] has the value "0".
+   * array[23] has the value "23" and so on.
+   *
+   * @param length of the array
+   * @return an array where the index is also the value
+   */
+  public static int[] createValuedArray(int length) {
+    return null;
+  }
+
   public static int[] revert(int[] array) {
     // revert the ordering of the array
     return null;
