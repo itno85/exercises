@@ -19,6 +19,8 @@
 
 package de.exercise.array;
 
+import java.math.BigDecimal;
+
 public class ArrayUtils {
 
   /**
@@ -28,12 +30,23 @@ public class ArrayUtils {
    * @param length of the array
    * @return an array where the index is also the value
    */
-  public static int[] createValuedArray(int length) {
+  public static int[] createSortedArray(int length) {
+    return null;
+  }
+
+  public static int[] createRandomArray(int length) {
     return null;
   }
 
   public static int[] revert(int[] array) {
     // revert the ordering of the array
     return null;
+  }
+
+  public static BigDecimal average(int[] array) {
+    return null;
+  }
+
+  public static void print(int[] array) {
   }
 }
