@@ -23,6 +23,22 @@ import java.math.BigDecimal;
 
 public class ArrayUtils {
 
+  public static int[] addElement(int[] array, int element) {
+    return null;
+  }
+
+  public static int[] addElementAt(int[] array, int position, int element) {
+    return null;
+  }
+
+  public static int[] removeLastElement(int[] array) {
+    return null;
+  }
+
+  public static int[] swapArray(int[] array) {
+    return null;
+  }
+
   /**
    * The value of a specific index should always be equal to this index. This means, array[0] has the value "0".
    * array[23] has the value "23" and so on.

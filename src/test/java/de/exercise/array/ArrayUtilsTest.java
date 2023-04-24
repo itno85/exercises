@@ -27,6 +27,47 @@ import java.math.BigDecimal;
 public class ArrayUtilsTest {
 
   @Test
+  public void addElement() {
+    int[] array = {0, 1, 2, 3, 4, 5};
+    int[] expected = {0, 1, 2, 3, 4, 5, 32};
+
+    int[] result = ArrayUtils.addElement(array, 32);
+    Assertions.assertArrayEquals(expected, result);
+  }
+
+  @Test
+  public void addElementAt() {
+    int[] array = {0, 1, 2, 3, 4, 5};
+    int[] expected = {32, 0, 1, 2, 3, 4, 5};
+
+    int[] result = ArrayUtils.addElementAt(array, 0, 32);
+    Assertions.assertArrayEquals(expected, result);
+
+    int[] expected2 = {0, 1, 32, 2, 3, 4, 5};
+
+    int[] result2 = ArrayUtils.addElementAt(array, 2, 32);
+    Assertions.assertArrayEquals(expected2, result2);
+  }
+
+  @Test
+  public void removeLastElement() {
+    int[] array = {0, 1, 2, 3, 4, 5};
+    int[] expected = {0, 1, 2, 3, 4};
+
+    int[] result = ArrayUtils.removeLastElement(array);
+    Assertions.assertArrayEquals(expected, result);
+  }
+
+  @Test
+  public void swapArray() {
+    int[] array = {0, 1, 2, 3, 4, 5};
+    int[] expected = {5, 4, 3, 2, 1, 0};
+
+    int[] result = ArrayUtils.swapArray(array);
+    Assertions.assertArrayEquals(expected, result);
+  }
+
+  @Test
   public void createSortedArray() {
     int[] result = ArrayUtils.createSortedArray(10);
     int[] expected = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
