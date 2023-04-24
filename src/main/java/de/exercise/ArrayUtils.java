@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package de.exercise.array;
+package de.exercise;
 
 import java.math.BigDecimal;
 

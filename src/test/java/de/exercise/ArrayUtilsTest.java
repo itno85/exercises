@@ -17,8 +17,9 @@
  * under the License.
  */
 
-package de.exercise.array;
+package de.exercise;
 
+import de.exercise.ArrayUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
