@@ -60,4 +60,12 @@ public class ArrayUtils {
 
   public static void print(int[] array) {
   }
+
+  public static BigDecimal sumEvenNumbers(int[] array) {
+    return null;
+  }
+
+  public static BigDecimal sumOddNumbers(int[] array) {
+    return null;
+  }
 }

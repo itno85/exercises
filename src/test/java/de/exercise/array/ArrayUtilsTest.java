@@ -88,4 +88,22 @@ public class ArrayUtilsTest {
     BigDecimal expected = new BigDecimal("48");
     Assertions.assertEquals(expected, result);
   }
+
+  @Test
+  public void sumEvenNumbers() {
+    int[] array = {23, 79, 42, 44};
+    BigDecimal result = ArrayUtils.sumEvenNumbers(array);
+    int expected = 86;
+
+    Assertions.assertEquals(expected, result);
+  }
+
+  @Test
+  public void sumOddNumbers() {
+    int[] array = {23, 79, 42, 44};
+    BigDecimal result = ArrayUtils.sumOddNumbers(array);
+    int expected = 102;
+
+    Assertions.assertEquals(expected, result);
+  }
 }
