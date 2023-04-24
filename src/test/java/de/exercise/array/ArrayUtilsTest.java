@@ -82,14 +82,6 @@ public class ArrayUtilsTest {
   }
 
   @Test
-  public void revertInt() {
-    int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-    int[] result = ArrayUtils.revert(array);
-    int[] expected = {9, 8, 7, 6, 5, 4, 3, 2, 1};
-    Assertions.assertArrayEquals(expected, result);
-  }
-
-  @Test
   public void average() {
     int[] array = {23, 79, 42};
     BigDecimal result = ArrayUtils.average(array);

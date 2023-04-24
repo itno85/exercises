@@ -54,11 +54,6 @@ public class ArrayUtils {
     return null;
   }
 
-  public static int[] revert(int[] array) {
-    // revert the ordering of the array
-    return null;
-  }
-
   public static BigDecimal average(int[] array) {
     return null;
   }
