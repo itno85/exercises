@@ -107,4 +107,12 @@ public class ArrayUtilsTest {
 
     Assertions.assertEquals(expected, result);
   }
+
+  @Test
+  public void hurtz() {
+    int[] hurtzArray = {23, 79, 256, 42, 44};
+    int[] noHurtzArray = {23, 79, 123, 42, 44};
+    Assertions.assertEquals("hurtz!", ArrayUtils.hurtz(hurtzArray));
+    Assertions.assertEquals("no hurtz...", ArrayUtils.hurtz(noHurtzArray));
+  }
 }

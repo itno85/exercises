@@ -68,4 +68,14 @@ public class ArrayUtils {
   public static BigDecimal sumOddNumbers(int[] array) {
     return null;
   }
+
+  /**
+   * Return "hurtz!" if the array contains a '256', otherwise return "no hurtz...".
+   *
+   * @param array array to test
+   * @return "hurtz!" or "no hurtz..."
+   */
+  public static String hurtz(int[] array) {
+    return null;
+  }
 }
