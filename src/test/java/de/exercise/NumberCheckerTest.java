@@ -66,6 +66,7 @@ public class NumberCheckerTest {
     Assertions.assertEquals(NumberSign.zero, numberChecker.getSign(0));
   }
 
+  @Test
   public void getWeek() {
     NumberChecker numberChecker = new NumberChecker();
     Assertions.assertEquals(DayOfWeek.MONDAY, numberChecker.getWeek(1));
